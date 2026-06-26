@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_lessons">
+
+    <fragment
+        android:id="@+id/nav_lessons"
+        android:name="com.example.linguatrain.fragments.StudentLessonsFragment"
+        android:label="Занятия" />
+    <fragment
+        android:id="@+id/nav_tests"
+        android:name="com.example.linguatrain.fragments.StudentTestsFragment"
+        android:label="Тесты" />
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.example.linguatrain.fragments.ProgressFragment"
+        android:label="Прогресс" />
+
+</navigation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.LinguaTrain" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/pastel_primary</item>
+        <item name="colorPrimaryVariant">@color/pastel_text</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/pastel_bg</item>
+        <item name="android:windowBackground">@color/pastel_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemBackground">@android:color/transparent</item>
+        <item name="elevation">8dp</item>
+    </style>
+</resources>
